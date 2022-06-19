@@ -1,0 +1,11 @@
+defaults:
+  - override /augmentation: transforms.yaml
+
+# experiment parameters
+augmentation:
+  resize:
+    size: 25
+  random_crop:
+    size: 15
+  random_perspective:
+    distortion_scale: 0.85

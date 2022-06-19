@@ -5,10 +5,6 @@ resize:
 random_crop:
   _target_: torchvision.transforms.RandomCrop
   size: 50
-# color_jitter:
-#   _target_: torchvision.transforms.ColorJitter
-#   brightness: 1.5
-#   hue: 5
 random_perspective:
   _target_: torchvision.transforms.RandomPerspective
   distortion_scale: 0.75
